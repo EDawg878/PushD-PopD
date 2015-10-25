@@ -8,23 +8,23 @@
       "128": "save.png"
     },
     "permissions": [
-      "tabs", "<all_urls>"
+      "activeTab"
     ],
     "background": {
         "scripts": ["background.js"]
     },
     "commands": {
       "pushd": {
+        "description": "Push URL",
         "suggest_key": {
           "default": "Ctrl+Shift+."
-        },
-        "description": "Push URL"
+        }
       },
       "popd": {
+        "description": "Pop URL",
         "suggest_key": {
           "default": "Ctrl+Shift+,"
-        },
-        "description": "Pop URL"
+        }
       }
     }
 }
