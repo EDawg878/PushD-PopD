@@ -6,7 +6,12 @@ function notify(title, message) {
     message: message,
     iconUrl: "save.png"
   };
-  chrome.notifications.create("PushD", opt);
+  var cancel = function(id) {
+    setTimeout(function() {
+      chrome.notifications.clear(id)
+    }, 1500);
+  };
+  chrome.notifications.create("PushD", opt, cancel);
 }
 
 var stack = [];
