@@ -25,7 +25,7 @@ as many pages as you would like, and you can keep using the 'Popd' command until
       "128": "save.png"
     },
     "permissions": [
-      "tabs", "<all_urls>"
+      "activeTab"
     ],
     "background": {
         "scripts": ["background.js"]
