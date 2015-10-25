@@ -7,6 +7,9 @@ This Chrome extension allows the user to save (push) a webpage and continue brow
 whenever they want to return to their original place.
 Inspired by the Linux commands 'pushd' and 'popd'.
 
+#### In-Browser Screenshot
+![popd](/Screenshots/popd.png?raw=true)
+
 #### How It Works
 On Google Chrome, access Settings->Extensions->Keyboard Shortcuts, and set 'Pushd" to Command+Shift+Comma, then set
 'Popd' to Command+Shift+Period. When you are on the page you want to save, press the hotkey command for 'Pushd'.
@@ -31,7 +34,8 @@ as many pages as you would like, and you can keep using the 'Popd' command until
         "scripts": ["background.js"]
     }
 }
-  ```
+```
+
   [@edawg878]: <https://github.com/EDawg878>
   [@tlam6297]: <https://github.com/tlam6297>
   [@rch3ung]: <https://github.com/rch3ung>
