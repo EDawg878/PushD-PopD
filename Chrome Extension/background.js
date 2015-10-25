@@ -9,7 +9,7 @@ function notify(title, message) {
   var cancel = function(id) {
     setTimeout(function() {
       chrome.notifications.clear(id)
-    }, 5000);
+    }, 1500);
   };
   chrome.notifications.create("PushD", opt, cancel);
 }
