@@ -13,7 +13,7 @@ On Google Chrome, access Settings->Extensions->Keyboard Shortcuts, and set 'Push
 When you are done searching something and want to go back to your saved place, press the hotkey for 'Popd'. You can save(push)
 as many pages as you would like, and you can keep using the 'Popd' command until you are back to your first saved place.
 
-#### A Peek at our Extension
+#### A Peek at our Extension Manifest
 ```javascript
 {
     "name": "PushD PopD",
@@ -30,6 +30,7 @@ as many pages as you would like, and you can keep using the 'Popd' command until
     "background": {
         "scripts": ["background.js"]
     }
+}
   ```
   [@edawg878]: <https://github.com/EDawg878>
   [@tlam6297]: <https://github.com/tlam6297>
