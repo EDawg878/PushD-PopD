@@ -25,7 +25,7 @@ chrome.commands.onCommand.addListener(function(command) {
     } else if (command === "popd" && stack.length > 0) {
       var saved_url = stack.pop();
       chrome.tabs.update(tab.id, {url: saved_url});
-      notify("Popped URL", tab.url);
+      notify("Popped URL", saved_url);
     }
   });
 });
