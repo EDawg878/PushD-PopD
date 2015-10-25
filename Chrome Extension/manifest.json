@@ -8,7 +8,7 @@
       "128": "save.png"
     },
     "permissions": [
-      "activeTab"
+      "activeTab", "notifications"
     ],
     "background": {
         "scripts": ["background.js"]
