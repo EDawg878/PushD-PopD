@@ -1,6 +1,6 @@
 ## PushD-PopD - MinneHack 2015 Hackathon Project
 ###A Google Chrome extension written in Javascript
-###### Created By: Eric Aguilera <[@edawg878]>, Terry Lam <[@tlam6297]>
+###### Created By: Eric Aguilera <[@edawg878]>, Terry Lam <[@tlam6297]>, Ryan Cheung <[@rch3ung]>, Dhruv Upadhyay <[@dhruv97]>
 
 #### About This Project
 This Chrome extension allows the user to save (push) a webpage and continue browsing, and then go back (pop) to the saved page
@@ -13,7 +13,7 @@ On Google Chrome, access Settings->Extensions->Keyboard Shortcuts, and set 'Push
 When you are done searching something and want to go back to your saved place, press the hotkey for 'Popd'. You can save(push)
 as many pages as you would like, and you can keep using the 'Popd' command until you are back to your first saved place.
 
-#### A Peek at our Extension Manifest
+#### A Peek at our Extension
 ```javascript
 {
     "name": "PushD PopD",
@@ -25,7 +25,7 @@ as many pages as you would like, and you can keep using the 'Popd' command until
       "128": "save.png"
     },
     "permissions": [
-      "activeTab"
+      "tabs", "<all_urls>"
     ],
     "background": {
         "scripts": ["background.js"]
@@ -34,3 +34,5 @@ as many pages as you would like, and you can keep using the 'Popd' command until
   ```
   [@edawg878]: <https://github.com/EDawg878>
   [@tlam6297]: <https://github.com/tlam6297>
+  [@rch3ung]: <https://github.com/rch3ung>
+  [@dhruv97]: <https://github.com/Dhruv97>
