@@ -17,13 +17,13 @@
       "pushd": {
         "description": "Push URL",
         "suggest_key": {
-          "default": "Ctrl+Shift+."
+          "default": "Ctrl+Shift+Period"
         }
       },
       "popd": {
         "description": "Pop URL",
         "suggest_key": {
-          "default": "Ctrl+Shift+,"
+          "default": "Ctrl+Shift+Comma"
         }
       }
     }
