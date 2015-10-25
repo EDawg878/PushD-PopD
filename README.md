@@ -30,6 +30,7 @@ as many pages as you would like, and you can keep using the 'Popd' command until
     "background": {
         "scripts": ["background.js"]
     }
+}
   ```
   [@edawg878]: <https://github.com/EDawg878>
   [@tlam6297]: <https://github.com/tlam6297>
