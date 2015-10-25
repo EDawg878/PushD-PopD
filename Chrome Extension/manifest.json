@@ -1,0 +1,25 @@
+{
+    "name": "PushD PopD",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+      "tabs", "<all_urls>"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "commands": {
+      "pushd": {
+        "suggest_key": {
+          "default": "Ctrl+Shift+."
+        },
+        "description": "Push URL"
+      },
+      "popd": {
+        "suggest_key": {
+          "default": "Ctrl+Shift+,"
+        },
+        "description": "Pop URL"
+      }
+    }
+}
