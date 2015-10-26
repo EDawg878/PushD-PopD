@@ -2,6 +2,8 @@
 ###A Google Chrome extension written in Javascript
 ###### Created By: Eric Aguilera <[@edawg878]>, Terry Lam <[@tlam6297]>, Ryan Cheung <[@rch3ung]>, Dhruv Upadhyay <[@dhruv97]>
 
+### > [Download from the Chrome Webstore](https://chrome.google.com/webstore/detail/pushd-popd/epeojbfnaamlgibcfaglngnbfoffgggn) <
+
 #### About This Project
 This Chrome extension allows the user to save (push) a webpage and continue browsing, and then go back (pop) to the saved page
 whenever they want to return to their original place.
